@@ -1,4 +1,3 @@
-## Leetcode Praticing
-My leetcode excercises
+## My LeetCode Journey
 
-Mantra: One Leetcode per day keeps the unemployment away
+This is my journey of solving LeetCode problems. I will be updating this repository as I solve more problems.

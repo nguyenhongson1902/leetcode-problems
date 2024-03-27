@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/minimum-window-substring/solutions/26808/here-is-a-10-line-template-that-can-solve-most-substring-problems/
+# Sliding window
 
 def minWindow(s, t):
     map = [0] * 128

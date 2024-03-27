@@ -73,5 +73,7 @@ def minWindow(s, t):
 
 
 """
-This template uses the sliding window technique. It maintains two pointers (begin and end) to represent a window in s. It expands the window until it contains all characters of t and then shrinks it from the left until it no longer contains all characters of t. It keeps track of the smallest window that contains all characters of t.
+This template uses the sliding window technique. It maintains two pointers (begin and end) to represent a window in s. 
+It expands the window until it contains all characters of t and then shrinks it from the left until it no longer contains 
+all characters of t. It keeps track of the smallest window that contains all characters of t.
 """

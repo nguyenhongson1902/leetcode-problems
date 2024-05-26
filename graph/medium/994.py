@@ -1,7 +1,7 @@
 from typing import List
 import collections
 
-# Rotten Oranges
+# Rotting Oranges
 # https://leetcode.com/problems/rotting-oranges/description/
 
 class Solution:

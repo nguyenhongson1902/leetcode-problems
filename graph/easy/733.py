@@ -19,10 +19,10 @@ class Solution:
                 new_r, new_c = r + dr, c + dc
                 if 0 <= new_r < ROWS and 0 <= new_c < COLS and image[new_r][new_c] == starting_color:
                     dfs(visited, new_r, new_c)
-                    visited.add((new_r, new_c))
         
         dfs(visited, sr, sc)
         return image
         # Time: O(mn), m=#rows, n=#cols
         # Space: O(mn)
+            
             

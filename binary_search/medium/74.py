@@ -20,7 +20,7 @@ class Solution:
 
         def binary_search_row(arr, target):
             '''
-            Make sure this function will return an integer index even if it doesn't     find any value that is equal to the target
+            Make sure this function will return an integer index even if it doesn't find any value that is equal to the target
             '''
             if len(arr) == 1: # when the matrix has only 1 row
                 return 0

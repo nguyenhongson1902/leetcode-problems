@@ -28,7 +28,17 @@ class Solution:
                 left += 1
                 right_increased = False
         return max_len
-        # Time complexity: O(n), n = len(s)
-        
-        
+        # Time complexity: O(26n), n = len(s), because we have 26 possible upper case letters
+
+        # left, right = 0, 0
+        # max_len = 0
+        # freq = {}
+        # while right < len(s):
+        #     freq[s[right]] = freq.get(s[right], 0) + 1
+        #     while (right - left + 1) - max(freq.values()) > k:
+        #         freq[s[left]] -= 1
+        #         left += 1
+        #     max_len = max(max_len, right - left + 1)
+        #     right += 1
+        # return max_len
 

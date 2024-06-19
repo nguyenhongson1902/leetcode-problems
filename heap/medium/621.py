@@ -18,7 +18,7 @@ class Solution:
         
         max_heap = [-times for task_name, times in freq.items()] # O(26)
         heapq.heapify(max_heap) # O(26)
-        print(max_heap)
+        # print(max_heap)
         q = deque([])
         min_time = 0
         while len(max_heap) > 0 or q:
@@ -34,7 +34,7 @@ class Solution:
             min_time += 1
 
         return min_time
-        # Time: O(m), m = len(tasks)
+        # Time: O(m * idle_time), m = len(tasks)
         # Space: O(1)
 
 

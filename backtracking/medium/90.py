@@ -17,7 +17,7 @@ class Solution:
             backtrack(i + 1)
 
             subset.pop()
-            while i + 1 < len(nums) and nums[i] == nums[i + 1]:
+            while i + 1 < len(nums) and nums[i] == nums[i + 1]: # Skipping duplicates
                 i += 1
 
             backtrack(i + 1)
